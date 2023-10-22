@@ -1,4 +1,4 @@
-package br.com.estudo.jpa.hibernate.appdbjpa;
+package br.com.estudo.jpa.hibernate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
