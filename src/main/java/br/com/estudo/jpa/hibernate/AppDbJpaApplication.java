@@ -27,6 +27,11 @@ public class AppDbJpaApplication implements CommandLineRunner{
 		
 		Course course = repository.findById(1001L);
 		logger.info("Course 1001L -> {}", course);
+//		repository.deleteById(1001L);
+//		repository.save(new Course("Microservices with Spring"));
+//		Course updateCourse = repository.findById(1002L);
+//		updateCourse.setName("Spring, Spring Boot and Spring MVC");
+//		repository.save(updateCourse);
 	}
 
 }
